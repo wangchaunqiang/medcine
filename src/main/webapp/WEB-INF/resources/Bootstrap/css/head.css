@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+.background {
+	background-color: rgba(255,255,255,.2);
+}
+.background .glyphicon-home {
+	font-size: 40px;
+	margin: 9px;
+}
+.background .align-right {
+	text-align: right;
+}
+.background .loge {
+	width: 120px;
+	height: 40px;
+	margin-top: 6px;
+}
+.background h2 {
+	color: white;
+	margin-top: 10px;
+}
+.background h3 {
+	color:white;
+	text-align: right;
+	margin-top: 15px;
+}
+.background .btn {
+	margin-top: 13px;
+}
+
+
+
+
+
+
+
+

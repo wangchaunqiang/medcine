@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: dev
+  mvc:
+    view:
+        prefix: /WEB-INF/view/
+        suffix: .jsp
+  resources:
+    static-locations: classpath:/WEB-INF/resources/**
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/dbgirl
+    username: root
+    password: sa
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
